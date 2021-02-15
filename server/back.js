@@ -5,9 +5,10 @@ const Filter=require('bad-words');
 
 const app=express();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-const db=monk('mongodb+srv://Kavita:root@cluster0.65mfa.mongodb.net/memedb?retryWrites=true&w=majority' || 'localhost/meower');  
+
+const db=monk(process.env.MONGO_URI || 'localhost/meower');  
 db.then(() =>{
     console.log("connection success");
   }).catch((e)=>{
