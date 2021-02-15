@@ -1,0 +1,32 @@
+
+.title{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 200;
+}
+.emoji{
+    font-size:100px;
+    text-align: center;
+}
+
+.meme-form{
+    width: 50%;
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+
+.loading{
+   text-align: center;
+}
+
+
+.mews{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+

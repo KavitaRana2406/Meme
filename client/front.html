@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xmeme</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body class="fill">
+    
+    <header>
+      <h1 class="title">Meme Stream</h1>
+      <div class="emoji">
+        <img src="logo.jpg">
+      </div>
+    </header>
+    <main>
+      <form class="meme-form" method="post">
+        <label for="owner">Meme Owner</label>
+        <input class="u-full-width" type="text" id="owner" name="owner" placeholder="Enter your Full Name" required>
+        <label for="caption">Caption</label>
+        <input class="u-full-width" type="text" id="caption" name="caption" placeholder="Be creative with caption" required=true>
+        <label for="umeme">Meme URL</label>
+        <input class="u-full-width" type="url" id="umeme" name="umeme" placeholder="Enter image(jpg/gif/png) URL for your meme" required pattern="(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)">
+        <button class="button-primary" >Submit Meme</button>
+        </form>
+       <div class="loading">
+            <img src="Loader.gif">
+        </div> 
+        <div class="mews">
+
+        </div>
+     </main>
+     <script src="user.js"></script>
+  </body>
+</html>
