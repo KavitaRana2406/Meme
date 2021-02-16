@@ -11,6 +11,12 @@ This is the Model :
 
 This is my Front End :
 
+![ss2](https://user-images.githubusercontent.com/42694233/108017800-cbd44680-703b-11eb-9583-de1bfe80e7ab.PNG)
 
 
+
+What I used :
+
+FRONT END : HTML,JavaScript
+BACK END : Node.js and MongoDB for Database
 
