@@ -1,0 +1,2 @@
+https://keen-aryabhata-51adf7.netlify.app/- for front end
+https://memexg.herokuapp.com/mews  -for back end
